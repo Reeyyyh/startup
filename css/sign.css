@@ -104,3 +104,11 @@ div.part{
     display: flex;
     font-size: 20px;
 }
+
+.fa-arrow-left{
+    color: #000000;
+    background-color: #E91E63;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: #F48FB1 0px 3px 0px;
+}
