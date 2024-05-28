@@ -6,11 +6,49 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #f8bbd0;
     color: white;
     padding: 1rem;
     text-align: center;
     max-width: 100%;
+}
+
+#SignUp{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-button {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.auth-button:hover {
+    background-color: #0056b3;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    margin-right: 10px;
+    border-radius: 16px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 nav ul {
@@ -48,35 +86,44 @@ footer {
     max-width: 100%;
 }
 
-.auth-buttons {
-    display: flex;
-    gap: 10px;
+.contact{
+    display: flexbox;
+    justify-content: center;
 }
 
-.auth-button {
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+.content li a{
     display: inline-block;
-}
-
-.auth-button:hover {
-    background-color: #0056b3;
-}
-
-.logo {
-    width: 50px;
-    height: 50px;
     background-color: #007bff;
-    margin-right: 10px;
-    border-radius: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 2vw;
 }
 
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+
+@media screen and (min-width: 200px) and (max-width: 768px){
+
+    .content li{
+        font-size: 1vw;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .content li a{
+        font-size: 16px;
+        display: block;
+        background-color: #007bff;
+    }
+
+    a{
+        padding: 10px 20px;
+    }
+
+    .title{
+        font-size: 6vw;
+    }
 }
