@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bengkel Online</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Layanan Pemanggilan Tukang Bengkel</h1>
+        <nav>
+            <ul class="content">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <!-- Home Section -->
+    <section>
+        <h2>Menu</h2>
+        <a href="/register-customer">Sign up</a> <a href="/register-mechanic">Login</a>
+
+        <h2>Kirim Lokasi Anda</h2>
+        <p>Klik tombol di bawah ini untuk mengirimkan lokasi Anda ke tukang bengkel.</p>
+        <button id="sendLocationButton">Kirim Lokasi</button>
+        <br><br>
+        <label for="location">Lokasi Anda:</label>
+        <input type="text" id="location" readonly>
+        <br><br>
+        <a id="googleMapsLink" href="#" target="_blank">Buka di Google Maps</a>
+    </section>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
